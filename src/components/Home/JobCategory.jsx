@@ -1,10 +1,10 @@
 import React from 'react';
 import './Home.css'
 
-const JobCatagory = () => {
+const JobCategory = () => {
     return (
         <div>
-            {/* Job Catagory section */}
+            {/* Job Category section */}
             <section>
                 <div className='mt-10'>
                     <h2 className='text-4xl font-bold text-center'>Job Category List</h2>
@@ -59,4 +59,4 @@ const JobCatagory = () => {
     );
 };
 
-export default JobCatagory;
+export default JobCategory;

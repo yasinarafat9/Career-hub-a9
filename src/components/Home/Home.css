@@ -8,13 +8,31 @@
     margin: auto;
     
 }
+
+.card-border:hover{
+    background-color:rgba(138, 92, 246, 0.144);
+}
 .img-border{
     width: fit-content;
     padding: 10px;
-    background-color: rgb(241, 241, 241);
+    /* background-color: rgb(241, 241, 241); */
 }
 
 .img-border img{
     padding: 20px;
     width: 100px;
+}
+
+.job-card{
+    width: 500px;
+    height: 340px;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgba(138, 92, 246, 0.226);
+}
+.job-card:hover{
+    background-color:rgba(138, 92, 246, 0.144);
+}
+
+.job-card img{
+    height: 40px;
 }
