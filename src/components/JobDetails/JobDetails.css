@@ -1,0 +1,15 @@
+
+.job-details-header{
+    margin: 30px auto;
+    height: 200px;
+    background-color:  rgba(138, 92, 246, 0.205);
+    
+}
+.job-details-header h2{
+    line-height: 200px;
+}
+
+.job-details-right-card{
+    background-color:rgba(138, 92, 246, 0.205);
+    height: 500px;
+}

@@ -18,7 +18,10 @@ const FeaturedJobs = ({featuredJob}) => {
                 <div className='py-1 text-lg text-gray-700 font-semibold'>
                     <p>{location} {salary}</p>
                 </div>
-                <button className='btn-web mt-2'>View Details</button>
+                {/* <button className='btn-web mt-2'>View Details</button> */}
+                <a href="../JobDetails"><button className='btn-web mt-2'>View Details</button></a>
+                {/* <Link to='./JobDetails'> click</Link> */}
+                {/* <Link to='../Home/Home.jsx' className='p-3'><p>Home</p></Link> */}
 
             </div>
            
