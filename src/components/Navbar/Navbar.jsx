@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav>
-            <div className='flex justify-between items-center m-4'>
+            <div className='flex justify-between items-center mt-2'>
                 <Link to='/Home'><h1 className='text-2xl font-bold'>Get Job</h1>
 </Link>
-                <div className='flex'>
-                    <Link to='/Statistics' className='p-3'>Statistics</Link>
-                    <Link to='/AppliedJobs' className='p-3'>Applied Jobs</Link>
-                    <Link to='/Blog' className='p-3'>Blog</Link>
+                <div className='flex nav-word'>
+                    <Link to='/Statistics' className='p-3'><p>Statistics</p></Link>
+                    <Link to='/AppliedJobs' className='p-3'><p>Applied Jobs</p></Link>
+                    <Link to='/Blog' className='p-3'><p>Blog</p></Link>
                 </div>
                 <button className='btn-web'>Start Applying</button>
             </div>

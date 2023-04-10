@@ -2,6 +2,16 @@
     color: white;
     font-weight: 600;
     padding: 10px 20px;
-    background-color: rgb(172, 77, 172);
+    background-color: rgb(228, 60, 228);
     border-radius: 10px;
+}
+.btn-web:hover{
+    background-color: rgb(250, 29, 250);
+}
+
+.nav-word p{
+    font-weight: 600;
+}
+.nav-word p:hover{
+    color: rgb(0, 147, 196);
 }
