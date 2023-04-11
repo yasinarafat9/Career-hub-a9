@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css'
 
-const FeaturedJobs = ({featuredJob}) => {
+const FeaturedJobs = ({featuredJob, handleAddToJobs}) => {
     const {id, img, jobName, companyName, location, salary} = featuredJob;
 
     return (
@@ -19,7 +19,7 @@ const FeaturedJobs = ({featuredJob}) => {
                     <p>{location} {salary}</p>
                 </div>
                 {/* <button className='btn-web mt-2'>View Details</button> */}
-                <a href="../JobDetails"><button className='btn-web mt-2'>View Details</button></a>
+                <a href="../JobDetails"><button onClick={() => handleAddToJobs(featuredJob)} className='btn-web mt-2'>View Details</button></a>
                 {/* <Link to='./JobDetails'> click</Link> */}
                 {/* <Link to='../Home/Home.jsx' className='p-3'><p>Home</p></Link> */}
 

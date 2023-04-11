@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css'
 import HeaderBanner from './HeaderBanner';
 import JobCategory from './JobCategory';
@@ -8,6 +8,17 @@ import { useLoaderData } from 'react-router-dom';
 const Home = () => {
     const featuredJobs = useLoaderData();
     // console.log(featuredJobs)
+
+    const [jobs, setJobs] = useState([]);
+
+    const handleAddToJobs = featuredJobs => {
+        const newJobs = [...jobs, featuredJobs];
+        setJobs(newJobs)
+        // console.log(featuredJobs);
+
+    }
+
+
     return (
         <div>
             {/* <h1>jobs : {featuredJobs.length}</h1> */}
@@ -30,6 +41,7 @@ const Home = () => {
                 featuredJobs.map(featuredJob =><FeaturedJobs
                 key={featuredJob.id}
                 featuredJob = {featuredJob}
+                handleAddToJobs = {handleAddToJobs}
                 ></FeaturedJobs> )
             }
             </div>

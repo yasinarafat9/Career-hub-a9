@@ -18,6 +18,12 @@ const router = createBrowserRouter([
     path: "/",
     element: <App></App>,
     children: [
+
+      {
+        path: '/',
+        element: <Home></Home>,
+        loader: () => fetch('featuredJobs.json')
+      },
       {
         path: 'Home',
         element: <Home></Home>,
