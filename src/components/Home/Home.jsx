@@ -4,6 +4,7 @@ import HeaderBanner from './HeaderBanner';
 import JobCategory from './JobCategory';
 import FeaturedJobs from './FeaturedJobs';
 import { useLoaderData } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     const featuredJobs = useLoaderData();
@@ -45,7 +46,11 @@ const Home = () => {
                 ></FeaturedJobs> )
             }
             </div>
-
+            <br />
+            <br />
+            <br />
+            
+            <Footer></Footer>
 
         </div>
 

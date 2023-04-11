@@ -27,7 +27,9 @@ const AppliedJobs = () => {
                         </div>
                     </div>
                 </div>
-                <button className='btn-web'>View Details</button>
+                {/* <a href="../JobDetails"><button className='btn-web'>View Details</button></a> */}
+                <p className='button-p'><button className='btn-web'>View Details</button></p>
+                
             </div>
         </div>
     );

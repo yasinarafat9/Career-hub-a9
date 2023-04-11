@@ -1,0 +1,27 @@
+
+.footer-bg{
+    background-color: rgba(0, 0, 0, 0.87);
+    height: 500px;
+    border-radius: 5px;
+}
+
+.footer-inside{
+    padding-top: 150px ;
+    color: rgb(231, 229, 229);
+  
+}
+.footer-inside h4{
+    font-weight: bold;
+}
+.footer-inside li{
+    font-weight: 500;
+    padding: 5px 0px;
+}
+
+.footer-inside li:hover{
+    color: rgb(208, 137, 255);
+}
+footer hr{
+    margin: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+}
