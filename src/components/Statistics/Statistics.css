@@ -1,0 +1,13 @@
+
+.round{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    /* border: 30px solid rgb(110, 49, 250); */
+    border: 50px solid rgba(109, 49, 250, 0.808);
+    margin: auto;
+}
+.round:hover{
+    border: 60px solid rgba(109, 49, 250, 0.952);
+    
+}

@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className='flex justify-between items-center mt-2'>
-                <Link to='/Home'><h1 className='text-2xl font-bold'>Get The Job Done</h1>
+                <Link to='/Home'><h1 className='text-3xl font-bold'>Get The Job Done</h1>
 </Link>
                 <div className='flex nav-word'>
                     <Link to='/Home' className='p-3'><p>Home</p></Link>
@@ -15,7 +15,8 @@ const Navbar = () => {
                     <Link to='/AppliedJobs' className='p-3'><p>Applied Jobs</p></Link>
                     <Link to='/Blog' className='p-3'><p>Blog</p></Link>
                 </div>
-                <button className='btn-web'>Start Applying</button>
+                <Link to='/Home' className='p-3'><button className='btn-web'>Start Applying</button></Link>
+                
             </div>
 
         </nav>

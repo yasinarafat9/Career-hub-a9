@@ -1,4 +1,5 @@
 import React from 'react';
+import './Blog.css'
 
 const Blog = () => {
     return (
@@ -6,7 +7,7 @@ const Blog = () => {
             <div className='m-10'>
                 <h2 className='text-4xl font-bold text-center'>Questions and Answers</h2>
             </div>
-            <div>
+            <div className='blog-texts'>
                 <div className='card-texts p-3'>
                     <h4 className='text-2xl font-semibold'>Question no 1: When Should you use context Api?</h4>
                     <p className='text-xl text-gray-700 font-semibold'>Answer: To use the context API, you need to create a context by calling the createContext function with an optional default value when using JavaScript.</p>

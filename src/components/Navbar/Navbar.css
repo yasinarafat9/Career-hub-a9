@@ -1,3 +1,7 @@
+nav h1:hover{
+    color: rgb(110, 49, 250);;
+}
+
 .btn-web{
     color: white;
     font-weight: 600;
@@ -6,18 +10,18 @@
     border-radius: 5px;
 }
 .btn-web:hover{
-    background-color: rgb(110, 49, 250);;
+    background-color: rgb(110, 49, 250);
 }
 
 .nav-word p{
     font-weight: 600;
 }
 .nav-word p:hover{
-    color: rgb(139 92 246);;
+    color: rgb(139 92 246);
 }
 
 .btn-job{
-    color: rgb(139 92 246);;
+    color: rgb(139 92 246);
     font-weight: bold;
     padding: 8px 15px ;
     border: 1px solid rgb(139 92 246);
